@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="claude-usage">
+  <schema id="org.gnome.shell.extensions.claude-usage" path="/org/gnome/shell/extensions/claude-usage/">
+    <key name="refresh-interval-minutes" type="i">
+      <range min="2" max="60"/>
+      <default>2</default>
+      <summary>Intervalo de atualização (minutos)</summary>
+      <description>Mínimo de 2 minutos: o endpoint responde 429 quando recebe chamadas demais.</description>
+    </key>
+    <key name="display-mode" type="s">
+      <choices>
+        <choice value="used"/>
+        <choice value="remaining"/>
+      </choices>
+      <default>"used"</default>
+      <summary>Exibir porcentagem como usado ou restante</summary>
+    </key>
+    <key name="panel-detail" type="s">
+      <choices>
+        <choice value="bars"/>
+        <choice value="percent"/>
+        <choice value="full"/>
+      </choices>
+      <default>"percent"</default>
+      <summary>Quanto mostrar na barra superior</summary>
+      <description>bars: só as barras; percent: rótulo, barra e porcentagem; full: também o tempo até o reset.</description>
+    </key>
+    <key name="show-weekly" type="b">
+      <default>true</default>
+      <summary>Mostrar a barra semanal na barra superior</summary>
+    </key>
+  </schema>
+</schemalist>

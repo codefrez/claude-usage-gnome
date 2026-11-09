@@ -1,0 +1,84 @@
+.claude-usage-box {
+    spacing: 6px;
+}
+
+.claude-usage-bar {
+    background-color: rgba(255, 255, 255, 0.28);
+    border-radius: 3px;
+}
+
+.claude-usage-bar-fill {
+    background-color: rgba(255, 255, 255, 0.92);
+    border-radius: 3px;
+}
+
+.claude-usage-bar-fill.level-warn {
+    background-color: #f6d32d;
+}
+
+.claude-usage-bar-fill.level-critical {
+    background-color: #ff7b63;
+}
+
+.claude-usage-dot {
+    background-color: #f6d32d;
+    border-radius: 4px;
+    width: 6px;
+    height: 6px;
+}
+
+.claude-usage-header {
+    font-weight: bold;
+}
+
+.claude-usage-row-name {
+    min-width: 9em;
+}
+
+.claude-usage-row-name.scoped {
+    padding-left: 1.2em;
+}
+
+.claude-usage-row-percent {
+    font-weight: bold;
+    min-width: 3em;
+    text-align: right;
+    padding-right: 1em;
+}
+
+.claude-usage-row-reset,
+.claude-usage-dim {
+    color: #9a9996;
+}
+
+.claude-usage-warning {
+    color: #f6d32d;
+}
+
+.claude-usage-segment {
+    spacing: 4px;
+}
+
+.claude-usage-segment-name {
+    color: #99c1f1;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+.claude-usage-segment-reset {
+    color: #9a9996;
+    font-size: 0.85em;
+}
+
+.claude-usage-segment-value {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.claude-usage-segment-value.level-warn {
+    color: #f6d32d;
+}
+
+.claude-usage-segment-value.level-critical {
+    color: #ff7b63;
+}

@@ -1,0 +1,8 @@
+{
+  "uuid": "claude-usage@codefrez",
+  "name": "Claude Usage",
+  "description": "Mostra o uso da janela de 5 horas e semanal do Claude Code na barra superior.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "settings-schema": "org.gnome.shell.extensions.claude-usage",
+  "url": ""
+}
